@@ -1,34 +1,177 @@
+@font-face {
+  font-family: portalFont;
+  src: url(portal.ttf);
+}
+
 h1 {
+  font-family: portalFont;
   text-align: center;
   vertical-align: middle;
   line-height: 90px; 
-  font-size: 50px;
+  font-size: 70px;
   color: white;
-  text-shadow: 1px 1px 1px blue;
+  text-shadow: 2px 2px 2px dodgerblue;
+  animation-name: flicker;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+#portal1 {
+  width: 491px;
+  height: 491px;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+}
+
+#portal2 {
+  width: 491px;
+  height: 491px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+}
+
+#portal3 {
+  width: 491px;
+  height: 491px;
+  position: absolute;
+  left: 196%;
+  top: 15%;
+}
+
+#portal4 {
+  width: 491px;
+  height: 491px;
+  position: absolute;
+  left: 238%;
+  top: 15%;
 }
 /*
 body {
   background: url(http://i.imgur.com/DULh67z.jpg);
   max-width:100%;
   max-height:100%;
-}*/
+  }*/
 
-#ponyportal {
-  display: block;
+  #ponyportal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:5%;
+    width:7%;
+  }
+
+  @keyframes flicker {
+    from {
+      opacity: 0.5;
+    }
+    4% {
+      opacity: 0.5;
+    }
+    6% {
+      opacity: 0.45;
+    }
+    8% {
+      opacity: 0.55;
+    }
+    10% {
+      opacity: 0.45;
+    }
+    11% {
+      opacity: 0.5;
+    }
+    12% {
+      opacity: 0.65;
+    }
+    14% {
+      opacity: 0.55;
+    }
+    16% {
+      opacity: 0.70;
+    }
+    17% {
+      opacity: 0.55;
+    }
+    19% {
+      opacity: 0.5;
+    }
+    20% {
+      opacity: 0.5;
+    }
+    24% {
+      opacity: 0.5;
+    }
+    26% {
+      opacity: 0.69;
+    }
+    28% {
+      opacity: 0.5;
+    }
+    38% {
+      opacity: 0.45;
+    }
+    40% {
+      opacity: 0.5;
+    }
+    42% {
+      opacity: 0.6;
+    }
+    44% {
+      opacity: 0.5;
+    }
+    46% {
+      opacity: 0.5;
+    }
+    56% {
+      opacity: 0.5;
+    }
+    58% {
+      opacity: 0.75;
+    }
+    60% {
+      opacity: 0.5;
+    }
+    68% {
+      opacity: 0.5;
+    }
+    70% {
+      opacity: .6; /*peak*/
+    }
+    72% {
+      opacity: 0.5;
+    }
+    93% {
+      opacity: 0.5;
+    }
+    95% {
+      opacity: .6; /*peak*/
+    }
+    97% {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
+
+
+/*#wheatleySmoll {
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  height:5%;
-  width:15%;
-}
+  height:1%;
+  width:3%;
+  }*/
 
-body{
-  width: 3810px;
-  height: auto;
-  background-size: stretch;
-  background-repeat: no-repeat;
-  /*background-position: center center;*/
-  background-image: url(http://i.imgur.com/DULh67z.jpg);
-}
+  body{
+    width: 3810px;
+    height: auto;
+    background-size: stretch;
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    background-image: url(http://i.imgur.com/DULh67z.jpg);
+  }
 
 
 /*.div-that-you want-to-stand-out { 

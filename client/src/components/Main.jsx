@@ -3,8 +3,12 @@ import { Link } from 'react-router'
 
 const Main = () => (
   <div>
-    <h1>rorrrrtfolio</h1>
-    <img id="ponyportal" src="http://orig03.deviantart.net/0c8c/f/2014/146/7/a/pinkie_playing_portal_by_batmanbrony-d7ju06s.gif"></img>
+    <h1>RORY MACDONALD PORTFOLIO</h1>
+    <img id="ponyportal" src="http://orig11.deviantart.net/3dbd/f/2013/299/4/2/portal_loop_animation__no_acceleration__by_polarnacht-d6awxh1.gif"></img>
+    <img id="portal1" src="https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc"></img>
+    <img id="portal2" src="https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc"></img>
+    <img id="portal3" src="https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc"></img>
+    <img id="portal4" src="https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc"></img>
   </div>
 )
 

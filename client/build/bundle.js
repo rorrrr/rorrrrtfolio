@@ -87,7 +87,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-
 window.onload = () => {
   __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     __WEBPACK_IMPORTED_MODULE_2_react_router__["a" /* Router */],
@@ -26551,9 +26550,13 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'h1',
     null,
-    'rorrrrtfolio'
+    'RORY MACDONALD PORTFOLIO'
   ),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'ponyportal', src: 'http://orig03.deviantart.net/0c8c/f/2014/146/7/a/pinkie_playing_portal_by_batmanbrony-d7ju06s.gif' })
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'ponyportal', src: 'http://orig11.deviantart.net/3dbd/f/2013/299/4/2/portal_loop_animation__no_acceleration__by_polarnacht-d6awxh1.gif' }),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal1', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal2', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal3', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal4', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' })
 );
 
 /* harmony default export */ __webpack_exports__["a"] = Main;
