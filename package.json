@@ -1,0 +1,14 @@
+{
+  "name": "rorrrrtfolio",
+  "version": "1.0.0",
+  "description": "Rory MacDonald Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rory MacDonald",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
