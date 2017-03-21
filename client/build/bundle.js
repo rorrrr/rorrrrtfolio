@@ -26662,6 +26662,7 @@ module.exports = function (str) {
 const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   'div',
   { id: 'mainDiv' },
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'glaDOS', src: 'https://media.giphy.com/media/l0Iy8mJZgWidVmu3e/giphy.gif' }),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
     null,

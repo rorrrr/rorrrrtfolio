@@ -4,6 +4,7 @@ import { Link } from 'react-router'
 const Main = () => (
 
   <div id="mainDiv">
+  <img id='glaDOS' src="https://media.giphy.com/media/l0Iy8mJZgWidVmu3e/giphy.gif"></img>
   <div>
     <h1>RORY MACDONALD PORTFOLIO</h1>
     <img id="portal1" src="https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc"></img>

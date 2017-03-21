@@ -27,6 +27,15 @@ h2 {
   animation-duration: 6s;
 }
 
+#glaDOS {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  max-width: 40%;
+  max-height: 20%;
+}
+
 #codeClanTitle{
   position: absolute;
   left: 2666px;
@@ -100,7 +109,6 @@ h2 {
   margin-right: auto;
   text-align: center;
   border: solid 2px white;
-  border-radius: 20px;
   font-size: 30px;
   color: white;
   text-shadow: 1px 1px 1px orange;
@@ -108,13 +116,15 @@ h2 {
   animation-duration: 2s;
   animation-iteration-count: 1;
   background-color: black;
-  z-index: 1000
+  z-index: 1000;
+  box-shadow: 0.5em 0.5em 0.7em #333;
+  border-radius: 1em;
 }
 
 @keyframes fadeinDelay {
-  0% {opacity: 0; width: 0px; height: 0px; font-size: 0px;}
-  75% {opacity: 0; width: 0px; height: 0px; font-size: 0px;}
-  100% {opacity: 1};
+  0% {opacity: 0; width: 0px; height: 0px; font-size: 0px; z-index: 1000;}
+  75% {opacity: 0; width: 0px; height: 0px; font-size: 0px; z-index: 1000;}
+  100% {opacity: 1 z-index: 1000;};
 }
 
 #pikachu {
@@ -244,6 +254,7 @@ body {
 
   @keyframes flicker {
     from {
+      z-index: 1000;
       opacity: 0.9;
     }
     4% {
