@@ -91,12 +91,7 @@ window.onload = () => {
   __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     __WEBPACK_IMPORTED_MODULE_2_react_router__["a" /* Router */],
     { history: __WEBPACK_IMPORTED_MODULE_2_react_router__["b" /* hashHistory */] },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_2_react_router__["c" /* Route */],
-      { path: '/', component: __WEBPACK_IMPORTED_MODULE_3__components_Main__["a" /* default */] },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router__["c" /* Route */], { path: 'pokemon', component: __WEBPACK_IMPORTED_MODULE_4__components_Pokemon__["a" /* default */] }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router__["c" /* Route */], { path: 'github', component: __WEBPACK_IMPORTED_MODULE_5__components_Github__["a" /* default */] })
-    )
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router__["c" /* Route */], { path: '/', component: __WEBPACK_IMPORTED_MODULE_3__components_Main__["a" /* default */] })
   ), document.getElementById('app'));
 };
 
@@ -26546,17 +26541,60 @@ module.exports = function (str) {
 
 const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   'div',
-  null,
+  { id: 'mainDiv' },
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'h1',
+    'div',
     null,
-    'RORY MACDONALD PORTFOLIO'
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'h1',
+      null,
+      'RORY MACDONALD PORTFOLIO'
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal1', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal2', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal3', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal4', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'horizontalPortalBlue', src: 'http://www.pngmart.com/files/3/Portal-PNG-File.png' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'horizontalPortalOrange', src: 'http://pre07.deviantart.net/e055/th/pre/f/2013/339/c/d/orange_portal_test_by_narishm-d6wufxw.png' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'wheatleyBounce', src: 'https://files.gamebanana.com/img/ico/sprays/51b0064505599.png' })
   ),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'ponyportal', src: 'http://orig11.deviantart.net/3dbd/f/2013/299/4/2/portal_loop_animation__no_acceleration__by_polarnacht-d6awxh1.gif' }),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal1', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal2', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal3', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal4', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' })
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'mainBlurb' },
+    'Psychology graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.',
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+    'Scroll Left for Projects ... Right for Experience'
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h2',
+    { id: 'codeClanTitle' },
+    ' COdeClan '
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h2',
+    { id: 'leagueTitle' },
+    ' League of Legends API '
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h2',
+    { id: 'pokerTitle' },
+    ' PrOfessional POker Player '
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h2',
+    { id: 'pokeTitle' },
+    ' POk\xE9mon Game '
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'portalPics' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'pikachu', src: 'http://24.media.tumblr.com/tumblr_mcm1ec68fN1qfqgb9o1_1280.gif' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'jinx', src: 'http://media.lolusercontent.com/api/embedly/1/image/resize?url=http%3A%2F%2Forig08.deviantart.net%2F097e%2Ff%2F2015%2F116%2F9%2Fe%2Fget_jinxed_lol_pixel_by_kajinman-d74jgbv.gif&key=a45e967db0914c7fb472fd4381e6c85b&width=425' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'codeclan', src: 'http://codeclan.com/wp-content/uploads/2016/03/favicon.png' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'poker', src: 'http://www.picgifs.com/sport-graphics/sport-graphics/playing-cards/sport-graphics-playing-cards-590406.gif' })
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { id: 'modals' })
 );
 
 /* harmony default export */ __webpack_exports__["a"] = Main;
@@ -26566,6 +26604,8 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 //   <li><Link to='/pokemon'>Pokemon</Link></li>
 //   <li><Link to='/github'>Github</Link></li>
 // </ul>
+
+// <img id="ponyportal" src="http://orig11.deviantart.net/3dbd/f/2013/299/4/2/portal_loop_animation__no_acceleration__by_polarnacht-d6awxh1.gif"></img>
 
 /***/ }),
 /* 234 */
@@ -26586,7 +26626,7 @@ const Github = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement
   )
 );
 
-/* harmony default export */ __webpack_exports__["a"] = Github;
+/* unused harmony default export */ var _unused_webpack_default_export = Github;
 
 /***/ }),
 /* 235 */
@@ -26607,7 +26647,7 @@ const Pokemon = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElemen
   )
 );
 
-/* harmony default export */ __webpack_exports__["a"] = Pokemon;
+/* unused harmony default export */ var _unused_webpack_default_export = Pokemon;
 
 /***/ })
 /******/ ]);

@@ -16,6 +16,106 @@ h1 {
   animation-duration: 3s;
 }
 
+h2 {
+  font-family: portalFont;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 2px orange;
+  animation-name: flicker;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+#codeClanTitle{
+  position: absolute;
+  left: 2666px;
+  top: 17px;
+}
+
+#pokerTitle{
+  position: absolute;
+  left: 3040px;
+  top: 17px;
+  width: 500px;
+}
+
+#pokeTitle{
+  position: absolute;
+  left: 769px;
+  top: 17px;
+  width: 500px;
+}
+
+#leagueTitle{
+  position: absolute;
+  left: 249px;
+  top: 17px;
+  width: 500px;
+}
+
+#mainBlurb {
+  font-family: portalFont;
+  display: block;
+  width: 900px;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: solid 2px white;
+  border-radius: 20px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 1px orange;
+  animation: fadeinDelay;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  background-color: black;
+}
+
+@keyframes fadeinDelay {
+  0% {opacity: 0; width: 0px; height: 0px; font-size: 0px;}
+  75% {opacity: 0; width: 0px; height: 0px; font-size: 0px;}
+  100% {opacity: 1};
+}
+
+#pikachu {
+  position: absolute;
+  left: 904px;
+  top: 242px;
+  height: 200px;
+  width: 200px;
+  filter: brightness(80%);
+}
+
+#jinx{
+  position: absolute;
+  left: 385px;
+  top: 242px;
+  height: 200px;
+  width: 200px;
+  filter: brightness(80%);
+}
+
+#codeclan{
+  position: absolute;
+  left: 2665px;
+  top: 264px;
+  height: 160px;
+  width: 160px;
+}
+
+#poker{
+  position: absolute;
+  left: 3212px;
+  top: 270px;
+  height: 160px;
+  width: 160px;
+  filter: brightness(80%);
+}
+
+
+
 #portal1 {
   width: 491px;
   height: 491px;
@@ -47,6 +147,45 @@ h1 {
   left: 238%;
   top: 15%;
 }
+
+#horizontalPortalBlue {
+  position: absolute;
+  left: 1200px;
+  bottom: 0px;
+  height: 50px;
+  width: 1000px;
+}
+
+#horizontalPortalOrange{
+  position: absolute;
+  left: 1700px;
+  bottom: 0px;
+  height: 50px;
+  width: 1000px;
+}
+
+#wheatleyBounce{
+  position: absolute;
+  left: 1600px;
+  bottom: 350px;
+  height: 160px;
+  width: 160px;
+  z-index: 1;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bounce {
+  0% {transform: none; z-index: 1}
+  25% {bottom: -160px; left: 1600px;}
+  26%{bottom: -160px; left:2100px;}
+  50%{bottom:350px; left:2100px;}
+  75%{bottom:-160px; left:2100px;}
+  76%{bottom: -160px; left:1600px;  transform: rotate(1440deg); opacity:1;}
+  100% {bottom: 350px; left: 1600px; transform: rotate(1800deg);}
+}
 /*
 body {
   background: url(http://i.imgur.com/DULh67z.jpg);
@@ -56,7 +195,7 @@ body {
 
   #ponyportal {
     display: block;
-    margin-left: auto;
+    margin-left: 2000px;
     margin-right: auto;
     height:5%;
     width:7%;
@@ -64,94 +203,94 @@ body {
 
   @keyframes flicker {
     from {
-      opacity: 0.5;
+      opacity: 0.9;
     }
     4% {
-      opacity: 0.5;
+      opacity: 0.7;
     }
     6% {
-      opacity: 0.45;
-    }
-    8% {
-      opacity: 0.55;
-    }
-    10% {
-      opacity: 0.45;
-    }
-    11% {
-      opacity: 0.5;
-    }
-    12% {
-      opacity: 0.65;
-    }
-    14% {
-      opacity: 0.55;
-    }
-    16% {
-      opacity: 0.70;
-    }
-    17% {
-      opacity: 0.55;
-    }
-    19% {
-      opacity: 0.5;
-    }
-    20% {
-      opacity: 0.5;
-    }
-    24% {
-      opacity: 0.5;
-    }
-    26% {
-      opacity: 0.69;
-    }
-    28% {
-      opacity: 0.5;
-    }
-    38% {
-      opacity: 0.45;
-    }
-    40% {
-      opacity: 0.5;
-    }
-    42% {
-      opacity: 0.6;
-    }
-    44% {
-      opacity: 0.5;
-    }
-    46% {
-      opacity: 0.5;
-    }
-    56% {
-      opacity: 0.5;
-    }
-    58% {
       opacity: 0.75;
     }
+    8% {
+      opacity: 0.75;
+    }
+    10% {
+      opacity: 0.75;
+    }
+    11% {
+      opacity: 0.6;
+    }
+    12% {
+      opacity: 0.75;
+    }
+    14% {
+      opacity: 0.65;
+    }
+    16% {
+      opacity: 0.80;
+    }
+    17% {
+      opacity: 0.65;
+    }
+    19% {
+      opacity: 0.6;
+    }
+    20% {
+      opacity: 0.6;
+    }
+    24% {
+      opacity: 0.6;
+    }
+    26% {
+      opacity: 0.79;
+    }
+    28% {
+      opacity: 0.6;
+    }
+    38% {
+      opacity: 0.75;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    42% {
+      opacity: 0.7;
+    }
+    44% {
+      opacity: 0.6;
+    }
+    46% {
+      opacity: 0.6;
+    }
+    56% {
+      opacity: 0.6;
+    }
+    58% {
+      opacity: 0.65;
+    }
     60% {
-      opacity: 0.5;
+      opacity: 0.6;
     }
     68% {
-      opacity: 0.5;
+      opacity: 0.6;
     }
     70% {
-      opacity: .6; /*peak*/
+      opacity: .7; /*peak*/
     }
     72% {
-      opacity: 0.5;
+      opacity: 0.6;
     }
     93% {
-      opacity: 0.5;
+      opacity: 0.6;
     }
     95% {
-      opacity: .6; /*peak*/
+      opacity: .7; /*peak*/
     }
     97% {
-      opacity: 0.5;
+      opacity: 0.6;
     }
     to {
-      opacity: 0.5;
+      opacity: 0.8;
     }
   }
 

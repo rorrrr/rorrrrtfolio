@@ -9,8 +9,6 @@ window.onload = () => {
   render(
     <Router history={hashHistory}>
       <Route path='/' component={Main}>
-      <Route path='pokemon' component={Pokemon} />
-      <Route path='github' component={Github} />
       </Route>
     </Router>,
     document.getElementById('app')
