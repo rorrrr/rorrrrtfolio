@@ -44,7 +44,7 @@ const Main = () => (
     <div id='modalLeague'>
       <div id="leagueModal" className="modal">
         <div className="modal-content">
-          <span className="close">&times;</span>
+          <span1 className="close">&times;</span1>
           <p>League of Legends Project</p>
         </div>
       </div>
@@ -53,7 +53,7 @@ const Main = () => (
     <div id='modalPoke'>
       <div id="pokeModal" className="modal">
         <div className="modal-content">
-          <span className="close">&times;</span>
+          <span2 className="close">&times;</span2>
           <p>Pokemon Project</p>
         </div>
       </div>
@@ -62,7 +62,7 @@ const Main = () => (
     <div id='modalCode'>
       <div id="codeModal" className="modal">
         <div className="modal-content">
-          <span className="close">&times;</span>
+          <span3 className="close">&times;</span3>
           <p>CodeClan</p>
         </div>
       </div>
@@ -71,12 +71,11 @@ const Main = () => (
     <div id='modalPoker'>
       <div id="pokerModal" className="modal">
         <div className="modal-content">
-          <span className="close">&times;</span>
+          <span4 className="close">&times;</span4>
           <p>Poker Life</p>
         </div>
       </div>
     </div>
-
 
   </div>
 
@@ -87,10 +86,19 @@ const Main = () => (
 
 export default Main
 
+
+
+
+
+
+
 // <ul>
 //   <li><Link to='/'>Home</Link></li>
 //   <li><Link to='/pokemon'>Pokemon</Link></li>
 //   <li><Link to='/github'>Github</Link></li>
 // </ul>
+
+
+
 
 // <img id="ponyportal" src="http://orig11.deviantart.net/3dbd/f/2013/299/4/2/portal_loop_animation__no_acceleration__by_polarnacht-d6awxh1.gif"></img>

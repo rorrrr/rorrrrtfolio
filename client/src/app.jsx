@@ -34,20 +34,11 @@ window.onload = () => {
       modal1.style.display = "block";
   }
 
-
-
   span1.onclick = function() {
       modal1.style.display = "none";
   }
 
-  window.onclick = function(event) {
-      if (event.target == modal1 || modal2) {
-          modal1.style.display = "none";
-          modal2.style.display = "none";
-
-      }
-  }
-
+ 
   /////////////// PORTAL 2 //////////////////////
 
   var modal2 = document.getElementById('pokeModal');
@@ -69,11 +60,73 @@ window.onload = () => {
       modal2.style.display = "none";
   }
 
+  /////////////// PORTAL 3 //////////////////////
+
+  var modal3 = document.getElementById('codeModal');
+
+  var btn3 = document.getElementById("portal3");
+  var codeclan = document.getElementById("codeclan");
+
+  var span3 = document.getElementsByClassName("close")[2];
+
+  btn3.onclick = function() {
+      modal3.style.display = "block";
+  }
+
+  codeclan.onclick = function() {
+      modal3.style.display = "block";
+  }
+
+  span3.onclick = function() {
+      modal3.style.display = "none";
+  }
+
+  /////////////// PORTAL 4 //////////////////////
+
+  var modal4 = document.getElementById('pokerModal');
+
+  var btn4 = document.getElementById("portal4");
+  var poker = document.getElementById("poker");
+
+  var span4 = document.getElementsByClassName("close")[3];
+
+  btn4.onclick = function() {
+      modal4.style.display = "block";
+  }
+
+  poker.onclick = function() {
+      modal4.style.display = "block";
+  }
+
+  span4.onclick = function() {
+      modal4.style.display = "none";
+  }
+
+  ////////////////////////
+
+  window.onclick = function(event) {
+      if (event.target == modal1) {
+          modal1.style.display = "none";
+      }
+      if (event.target == modal2) {
+          modal2.style.display = "none";
+      }
+      if (event.target == modal3) {
+          modal3.style.display = "none";
+      }
+      if (event.target == modal4) {
+          modal4.style.display = "none";
+      }
+  }
+///////////////////////////
+
+ 
+
   ////////// WIZARD SHIT //////////////////
 
   window.addEventListener( "scroll", function(event) { if ( document.body.scrollLeft + window.innerWidth === document.body.scrollWidth ) { document.body.scrollLeft = 1 } } )
 
-  window.addEventListener( "scroll", function(e) { if ( document.body.scrollLeft === 0) { document.body.scrollLeft = document.body.scrollWidth } } )
+  window.addEventListener( "scroll", function(event) { if ( document.body.scrollLeft === 0) { document.body.scrollLeft = document.body.scrollWidth - 1 } } )
 
   /////////////////////////////////////////////
 
