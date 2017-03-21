@@ -88,11 +88,77 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 window.onload = () => {
-  __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_2_react_router__["a" /* Router */],
-    { history: __WEBPACK_IMPORTED_MODULE_2_react_router__["b" /* hashHistory */] },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router__["c" /* Route */], { path: '/', component: __WEBPACK_IMPORTED_MODULE_3__components_Main__["a" /* default */] })
-  ), document.getElementById('app'));
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_2_react_router__["a" /* Router */],
+        { history: __WEBPACK_IMPORTED_MODULE_2_react_router__["b" /* hashHistory */] },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router__["c" /* Route */], { path: '/', component: __WEBPACK_IMPORTED_MODULE_3__components_Main__["a" /* default */] })
+    ), document.getElementById('app'));
+
+    /////////////// PORTAL 1 //////////////////////
+
+    var modal1 = document.getElementById('leagueModal');
+
+    var btn1 = document.getElementById("portal1");
+    var jinx = document.getElementById("jinx");
+
+    var span1 = document.getElementsByClassName("close")[0];
+
+    btn1.onclick = function () {
+        modal1.style.display = "block";
+    };
+
+    jinx.onclick = function () {
+        modal1.style.display = "block";
+    };
+
+    span1.onclick = function () {
+        modal1.style.display = "none";
+    };
+
+    window.onclick = function (event) {
+        if (event.target == modal1 || modal2) {
+            modal1.style.display = "none";
+            modal2.style.display = "none";
+        }
+    };
+
+    /////////////// PORTAL 2 //////////////////////
+
+    var modal2 = document.getElementById('pokeModal');
+
+    var btn2 = document.getElementById("portal2");
+    var pikachu = document.getElementById("pikachu");
+
+    var span2 = document.getElementsByClassName("close")[1];
+
+    btn2.onclick = function () {
+        modal2.style.display = "block";
+    };
+
+    pikachu.onclick = function () {
+        modal2.style.display = "block";
+    };
+
+    span2.onclick = function () {
+        modal2.style.display = "none";
+    };
+
+    ////////// WIZARD SHIT //////////////////
+
+    window.addEventListener("scroll", function (event) {
+        if (document.body.scrollLeft + window.innerWidth === document.body.scrollWidth) {
+            document.body.scrollLeft = 1;
+        }
+    });
+
+    window.addEventListener("scroll", function (e) {
+        if (document.body.scrollLeft === 0) {
+            document.body.scrollLeft = document.body.scrollWidth;
+        }
+    });
+
+    /////////////////////////////////////////////
+
 };
 
 /***/ }),
@@ -26564,7 +26630,10 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'Psychology graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.',
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-    'Scroll Left for Projects ... Right for Experience'
+    'Scroll Left for Projects ... Right for Experience',
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+    'Click on a Portal for more Info'
   ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'h2',
@@ -26594,7 +26663,98 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'codeclan', src: 'http://codeclan.com/wp-content/uploads/2016/03/favicon.png' }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'poker', src: 'http://www.picgifs.com/sport-graphics/sport-graphics/playing-cards/sport-graphics-playing-cards-590406.gif' })
   ),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { id: 'modals' })
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'modals' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { id: 'modalLeague' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { id: 'leagueModal', className: 'modal' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'modal-content' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'span',
+            { className: 'close' },
+            '\xD7'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'League of Legends Project'
+          )
+        )
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { id: 'modalPoke' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { id: 'pokeModal', className: 'modal' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'modal-content' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'span',
+            { className: 'close' },
+            '\xD7'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'Pokemon Project'
+          )
+        )
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { id: 'modalCode' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { id: 'codeModal', className: 'modal' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'modal-content' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'span',
+            { className: 'close' },
+            '\xD7'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'CodeClan'
+          )
+        )
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { id: 'modalPoker' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { id: 'pokerModal', className: 'modal' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'modal-content' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'span',
+            { className: 'close' },
+            '\xD7'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'Poker Life'
+          )
+        )
+      )
+    )
+  )
 );
 
 /* harmony default export */ __webpack_exports__["a"] = Main;

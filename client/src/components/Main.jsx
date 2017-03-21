@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 
 const Main = () => (
+
   <div id="mainDiv">
   <div>
     <h1>RORY MACDONALD PORTFOLIO</h1>
@@ -18,7 +19,11 @@ const Main = () => (
   <br></br>
   <br></br>
  
-  Scroll Left for Projects ... Right for Experience</div>
+  Scroll Left for Projects ... Right for Experience
+  <br></br>
+  <br></br>
+  Click on a Portal for more Info
+  </div>
 
   <h2 id='codeClanTitle'> COdeClan </h2>
   <h2 id='leagueTitle'> League of Legends API </h2>
@@ -34,12 +39,46 @@ const Main = () => (
   <img id='poker' src='http://www.picgifs.com/sport-graphics/sport-graphics/playing-cards/sport-graphics-playing-cards-590406.gif'></img>
   </div>
 
-
   <div id='modals'>
 
+    <div id='modalLeague'>
+      <div id="leagueModal" className="modal">
+        <div className="modal-content">
+          <span className="close">&times;</span>
+          <p>League of Legends Project</p>
+        </div>
+      </div>
+    </div>
+
+    <div id='modalPoke'>
+      <div id="pokeModal" className="modal">
+        <div className="modal-content">
+          <span className="close">&times;</span>
+          <p>Pokemon Project</p>
+        </div>
+      </div>
+    </div>
+
+    <div id='modalCode'>
+      <div id="codeModal" className="modal">
+        <div className="modal-content">
+          <span className="close">&times;</span>
+          <p>CodeClan</p>
+        </div>
+      </div>
+    </div>
+
+    <div id='modalPoker'>
+      <div id="pokerModal" className="modal">
+        <div className="modal-content">
+          <span className="close">&times;</span>
+          <p>Poker Life</p>
+        </div>
+      </div>
+    </div>
+
+
   </div>
-
-
 
   </div>
 
