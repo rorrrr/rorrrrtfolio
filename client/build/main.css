@@ -31,36 +31,36 @@ h2 {
   position: fixed;
   left: 0px;
   top: 0px;
-  z-index: 1000;
-  max-width: 40%;
-  max-height: 20%;
+  z-index: 1001;
+  max-width: 48%;
+  max-height: 24%;
 }
 
 #codeClanTitle{
   position: absolute;
-  left: 2666px;
-  top: 17px;
+  left: 208%;
+  top: 12%;
 }
 
 #pokerTitle{
-  position: absolute;
-  left: 3040px;
-  top: 17px;
-  width: 500px;
+ position: absolute;
+ left: 242%;
+ top: 12%;
+ width: 31%;
 }
 
 #pokeTitle{
   position: absolute;
-  left: 769px;
-  top: 17px;
-  width: 500px;
+  left: 64%;
+  top: 12%;
+  width: 31%;
 }
 
 #leagueTitle{
   position: absolute;
-  left: 249px;
-  top: 17px;
-  width: 500px;
+  left: 25%;
+  top: 12%;
+  width: 31%;
 }
 
 .modal {
@@ -128,72 +128,72 @@ h2 {
 }
 
 #pikachu {
- position: absolute;
- left: 904px;
- top: 254px;
- height: 200px;
- width: 200px;
- filter: brightness(80%);
-}
-
-#jinx{
   position: absolute;
-  left: 30%;
-  top: 33%;
-  height: 200px;
-  width: 200px;
+  left: 73%;
+  top: 42%;
+  height: 27%;
+  width: 12%;
   filter: brightness(80%);
 }
 
+#jinx{
+ position: absolute;
+ left: 33%;
+ top: 42%;
+ height: 27%;
+ width: 12%;
+ filter: brightness(80%);
+}
+
 #codeclan{
-  position: absolute;
-  left: 2665px;
-  top: 264px;
-  height: 160px;
-  width: 160px;
+ position: absolute;
+ left: 208%;
+ top: 45%;
+ height: 22%;
+ width: 12%;
 }
 
 #poker{
   position: absolute;
-  left: 3212px;
-  top: 270px;
-  height: 160px;
-  width: 160px;
+  left: 252%;
+  top: 45%;
+  height: 25%;
+  width: 12%;
   filter: brightness(80%);
 }
 
 
 
 #portal1 {
-  width: 491px;
-  height: 491px;
+  width: 40%;
+  height: 65%;
   position: absolute;
   left: 20%;
-  top: 15%;
+  top: 27%;
 }
 
 #portal2 {
-  width: 491px;
-  height: 491px;
+  width: 40%;
+  height: 65%;
   position: absolute;
   left: 60%;
-  top: 15%;
+  top: 27%;
 }
 
 #portal3 {
-  width: 491px;
-  height: 491px;
+  width: 40%;
+  height: 65%;
   position: absolute;
-  left: 196%;
-  top: 15%;
+  left: 195%;
+  top: 27%;
 }
 
 #portal4 {
-  width: 491px;
-  height: 491px;
+  width: 40%;
+  height: 65%;
   position: absolute;
   left: 238%;
-  top: 15%;
+  top: 27%;
 }
 
 #horizontalPortalBlue {

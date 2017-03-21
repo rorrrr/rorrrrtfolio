@@ -6,16 +6,15 @@ import Pokemon from './components/Pokemon'
 import Github from './components/Github'
 
 window.onload = () => {
+
   render(
     <Router history={hashHistory}>
       <Route path='/' component={Main}>
       </Route>
     </Router>,
-    document.getElementById('app'),
-
+    document.getElementById('app')
 
   )
-
 
   /////////////// PORTAL 1 //////////////////////
 
