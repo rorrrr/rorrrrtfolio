@@ -1,12 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router'
+import League from './League'
+import Pokemon from './Pokemon'
+import Poker from './Poker'
+import Code from './Code'
+import Blurb from './Blurb'
+import Modals from  '../containers/Modals'
+
 
 const Main = () => (
 
   <div id="mainDiv">
   <img id='glaDOS' src="https://media.giphy.com/media/l0Iy8mJZgWidVmu3e/giphy.gif"></img>
-  <div>
-    <h1>RORY MACDONALD PORTFOLIO</h1>
+  <div id='inner'>
+    <h1>ROry MacDOnald POrtfolio</h1>
     <img id="portal1" src="https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc"></img>
     <img id="portal2" src="https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc"></img>
     <img id="portal3" src="https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc"></img>
@@ -16,15 +23,7 @@ const Main = () => (
     <img id="wheatleyBounce" src="https://files.gamebanana.com/img/ico/sprays/51b0064505599.png"></img>
   </div>
 
-  <div id="mainBlurb">Psychology graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.
-  <br></br>
-  <br></br>
- 
-  Scroll Left for Projects ... Right for Experience
-  <br></br>
-  <br></br>
-  Click on a Portal for more Info
-  </div>
+  <Blurb></Blurb>
 
   <h2 id='codeClanTitle'> COdeClan </h2>
   <h2 id='leagueTitle'> League of Legends API </h2>
@@ -40,45 +39,7 @@ const Main = () => (
   <img id='poker' src='http://www.picgifs.com/sport-graphics/sport-graphics/playing-cards/sport-graphics-playing-cards-590406.gif'></img>
   </div>
 
-  <div id='modals'>
-
-    <div id='modalLeague'>
-      <div id="leagueModal" className="modal">
-        <div className="modal-content">
-          <span1 className="close">&times;</span1>
-          <p>League of Legends Project</p>
-        </div>
-      </div>
-    </div>
-
-    <div id='modalPoke'>
-      <div id="pokeModal" className="modal">
-        <div className="modal-content">
-          <span2 className="close">&times;</span2>
-          <p>Pokemon Project</p>
-        </div>
-      </div>
-    </div>
-
-    <div id='modalCode'>
-      <div id="codeModal" className="modal">
-        <div className="modal-content">
-          <span3 className="close">&times;</span3>
-          <p>CodeClan</p>
-        </div>
-      </div>
-    </div>
-
-    <div id='modalPoker'>
-      <div id="pokerModal" className="modal">
-        <div className="modal-content">
-          <span4 className="close">&times;</span4>
-          <p>Poker Life</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  <Modals></Modals>
 
   </div>
 

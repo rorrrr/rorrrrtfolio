@@ -2,8 +2,11 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 import Main from './components/Main'
+import League from './components/League'
 import Pokemon from './components/Pokemon'
-import Github from './components/Github'
+import Poker from './components/Poker'
+import Code from './components/Code'
+import Modals from  './containers/Modals'
 
 window.onload = () => {
 

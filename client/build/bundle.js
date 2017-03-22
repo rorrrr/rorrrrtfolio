@@ -78,8 +78,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_router__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Main__ = __webpack_require__(233);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Pokemon__ = __webpack_require__(235);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Github__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_League__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Pokemon__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_Poker__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_Code__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__containers_Modals__ = __webpack_require__(240);
+
+
+
 
 
 
@@ -26657,6 +26663,18 @@ module.exports = function (str) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__League__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Pokemon__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Poker__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Code__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Blurb__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__containers_Modals__ = __webpack_require__(240);
+
+
+
+
+
+
 
 
 
@@ -26666,11 +26684,11 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'glaDOS', src: 'https://media.giphy.com/media/l0Iy8mJZgWidVmu3e/giphy.gif' }),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
-    null,
+    { id: 'inner' },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'h1',
       null,
-      'RORY MACDONALD PORTFOLIO'
+      'ROry MacDOnald POrtfolio'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal1', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'portal2', src: 'https://d1v8u1ev1s9e4n.cloudfront.net/57d8393c5ccacf6a8ac749bc' }),
@@ -26680,17 +26698,7 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'horizontalPortalOrange', src: 'http://pre07.deviantart.net/e055/th/pre/f/2013/339/c/d/orange_portal_test_by_narishm-d6wufxw.png' }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'wheatleyBounce', src: 'https://files.gamebanana.com/img/ico/sprays/51b0064505599.png' })
   ),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'div',
-    { id: 'mainBlurb' },
-    'Psychology graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.',
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-    'Scroll Left for Projects ... Right for Experience',
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-    'Click on a Portal for more Info'
-  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__Blurb__["a" /* default */], null),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'h2',
     { id: 'codeClanTitle' },
@@ -26719,98 +26727,7 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'codeclan', src: 'http://codeclan.com/wp-content/uploads/2016/03/favicon.png' }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'poker', src: 'http://www.picgifs.com/sport-graphics/sport-graphics/playing-cards/sport-graphics-playing-cards-590406.gif' })
   ),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'div',
-    { id: 'modals' },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { id: 'modalLeague' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { id: 'leagueModal', className: 'modal' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'modal-content' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'span1',
-            { className: 'close' },
-            '\xD7'
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            'League of Legends Project'
-          )
-        )
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { id: 'modalPoke' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { id: 'pokeModal', className: 'modal' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'modal-content' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'span2',
-            { className: 'close' },
-            '\xD7'
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            'Pokemon Project'
-          )
-        )
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { id: 'modalCode' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { id: 'codeModal', className: 'modal' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'modal-content' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'span3',
-            { className: 'close' },
-            '\xD7'
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            'CodeClan'
-          )
-        )
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { id: 'modalPoker' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { id: 'pokerModal', className: 'modal' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'modal-content' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'span4',
-            { className: 'close' },
-            '\xD7'
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            'Poker Life'
-          )
-        )
-      )
-    )
-  )
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__containers_Modals__["a" /* default */], null)
 );
 
 /* harmony default export */ __webpack_exports__["a"] = Main;
@@ -26825,27 +26742,7 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 // <img id="ponyportal" src="http://orig11.deviantart.net/3dbd/f/2013/299/4/2/portal_loop_animation__no_acceleration__by_polarnacht-d6awxh1.gif"></img>
 
 /***/ }),
-/* 234 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-
-
-const Github = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-  'div',
-  null,
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'h3',
-    null,
-    'Github Links'
-  )
-);
-
-/* unused harmony default export */ var _unused_webpack_default_export = Github;
-
-/***/ }),
+/* 234 */,
 /* 235 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -26855,16 +26752,445 @@ const Github = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement
 
 
 const Pokemon = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { id: 'pokemonBlog' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { style: { textAlign: 'center' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { href: 'https://github.com/rorrrr/Poke-Doke', rel: 'nofollow' },
+                        'https://github.com/rorrrr/Poke-Doke'
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'alignnone size-full wp-image-207', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png?w=2560&h=1600', sizes: '(max-width: 2560px) 100vw, 2560px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png 2560w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png?w=150&h=94 150w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png?w=300&h=188 300w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png?w=768&h=480 768w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png?w=1024&h=640 1024w', alt: 'Screen Shot 2017-03-05 at 15.27.24.png', width: 2560, height: 1600, 'data-attachment-id': 207, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/screen-shot-2017-03-05-at-15-27-24/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png?w=2560&h=1600', 'data-orig-size': '2560,1600', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': 'screen-shot-2017-03-05-at-15-27-24', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png?w=2560&h=1600?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-15-27-24.png?w=2560&h=1600?w=1024' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { style: { textAlign: 'center' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { style: { textDecoration: 'underline' } },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'strong',
+                                null,
+                                'Choosing a Starter'
+                        )
+                )
+        ),
+        'Day 1 of our project started with probably the most simple decision we had all week: deciding on what app to create. The first idea suggested was a simplistic\xA0',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'em',
+                null,
+                'Pok\xE9mon-meets-Top Trumps '
+        ),
+        'game utilising\xA0the Pok\xE9mon api. As soon as we realised this was feasible (and not ',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                null,
+                'too'
+        ),
+        ' ambitious), the enthusiasm of becoming a Pok\xE9mon master took over and all other ideas were quickly forgotten. The planning process began and quickly progressed from diagrams, constructors and arrays to the really important details, such as which CodeClan Instructors were going to be photoshopped on to what Pok\xE9mon Gym leader\u2019s bodies\u2026 and whether Professor Matthew would be dancing (Spoiler: He was). To sum up the less interesting planning stage, \xA0I think the group as a whole came away with a really solid plan of what a completed \u201Cgame\u201D would look like and a rough idea of what we had defined as a minimum viable product we could present just 7 days later. We fully expected to land somewhere between those margins in\xA0no doubt that we would meet our relatively challenging MVP.',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'em',
+                        null,
+                        'Favourite Planning Stage \u2013 playing a Pok\xE9mon Blue emulator to refresh our memories.'
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'alignnone size-full wp-image-84', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg?w=1632&h=1224', sizes: '(max-width: 1632px) 100vw, 1632px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg 1632w, https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg?w=150&h=113 150w, https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg?w=300&h=225 300w, https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg?w=768&h=576 768w, https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg?w=1024&h=768 1024w', alt: 'img_0212', width: 1632, height: 1224, 'data-attachment-id': 84, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/img_0212/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg?w=1632&h=1224', 'data-orig-size': '1632,1224', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': 'img_0212', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg?w=1632&h=1224?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/img_0212.jpg?w=1632&h=1224?w=1024' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { style: { textAlign: 'center' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { style: { textDecoration: 'underline' } },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'strong',
+                                null,
+                                'First Battle'
+                        )
+                )
+        ),
+        'The group\u2019s discussion about what we expected to have to allocate the most amount of time to, and what would be relatively simple was\u2026slightly\u2026or rather completely\u2026 wrong. A meme that has lived on beyond this project, as a now infamous line, was: \u201CI will solve this in 5 minutes before bed tonight\u201D. Unfortunately, the following day, with four group members\u2019 focus and assistance from instructors, we eventually solved that problem after 7 hours work\u2026\xA0',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                null,
+                'and '
+        ),
+        'the\xA05 minutes, of course. We were\xA0struggling to find a way to not make too many requests to the Pok\xE9mon API.The Pok\xE9mon API was\xA0divided in such a way that the list of the 151 Pok\xE9mon were provided by one address, but the details about each specific Pok\xE9mon that needed to fight against each other were provided by another address. We really anticipated this would be as simple as making a request to one api, then based on that response make a request to another. The responses\xA0we received weren\u2019t at all what we were expecting, rather than receiving an error or zero Pok\xE9mon objects back, we were receiving different quantities\u2026 87\u202689\u202684\u202692 on each request for 151 Pok\xE9mon objects. Whilst this did put us a bit behind schedule, realising that we were making our requests consecutively, yet receiving our 151 responses simultaneously, we learned a valuable lesson and this certainly wasn\u2019t something\xA0we had planned to overcome. We eventually reached a compromise with the server of it collecting 148 of the Pok\xE9mon we asked for, then we would find out which Pok\xE9mon it missed and make a request for just those 3. This was a brute force method that we weren\u2019t delighted to have to use, but we had now built our own API of all 151 Pok\xE9mon with all the relevant statistics we needed for each Pok\xE9mon. A secondary stumbling block\xA0we hadn\u2019t planned for was getting the data from the response to the scope of the \u201Cgame\u201D file. After some assistance, we understood the problem and attempted to solve this ourselves. Our solution wasn\u2019t the most elegant and was the beginning of some quite repetitive code. It was at this point we accepted we may be producing quite ugly\xA0code that was definitely due for refactoring, however with a 7 day deadline we were satisfied with our code getting the job done from that point on.',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'em',
+                        null,
+                        'Pok\xE9mon 001 of our Pok\xE9dex API \u2013 unfortunately not followed by Pok\xE9mon 002, but all 151 are in there with the right ID. Somewhere\u2026'
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'alignnone size-full wp-image-212', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png?w=1480&h=1012', sizes: '(max-width: 1480px) 100vw, 1480px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png 1480w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png?w=150&h=103 150w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png?w=300&h=205 300w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png?w=768&h=525 768w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png?w=1024&h=700 1024w', alt: 'Screen Shot 2017-03-05 at 19.05.58.png', width: 1480, height: 1012, 'data-attachment-id': 212, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/screen-shot-2017-03-05-at-19-05-58/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png?w=1480&h=1012', 'data-orig-size': '1480,1012', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': 'screen-shot-2017-03-05-at-19-05-58', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png?w=1480&h=1012?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-05-58.png?w=1480&h=1012?w=1024' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { style: { textAlign: 'center' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'strong',
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'span',
+                                { style: { textDecoration: 'underline' } },
+                                'Our Main Rival'
+                        )
+                )
+        ),
+        'While our\xA0API woes were unexpected, eventually they were solved once we understood the problems. However, a constant thorn in our side from day 1 to day 7 was GitHub. Extremely useful and versatile\u2026once you figure out what you are doing. In the first 12 weeks at CodeClan, GitHub usage had become second nature. Being the sole contributor to a single branch was the perfect way\xA0for ',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'em',
+                null,
+                '\u2018git push\u2019'
+        ),
+        'ing my blissful ignorance to the point I thought I\xA0\u201Cknew how to use GitHub\u201D. I was wrong. Collaborating on GitHub turned out to\xA0be the topic I learnt the most about, the CheatSheet for group Git usage we followed for the project was pretty foreign to me on day 1. I was following the steps, it was working, but it wasn\u2019t until day 5 or 6 I really felt confident in what I was doing. Then I was comfortable missing out steps because I knew what they were doing and that they weren\u2019t about to set the master branch on fire.',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'em',
+                        null,
+                        'Day 4 \u2013 action shot of us committing to master'
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'alignnone size-full wp-image-193', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/05onfire1_xp-master768-v2.jpg?w=768&h=364', sizes: '(max-width: 768px) 100vw, 768px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/05onfire1_xp-master768-v2.jpg 768w, https://pokeedokee.files.wordpress.com/2017/03/05onfire1_xp-master768-v2.jpg?w=150&h=71 150w, https://pokeedokee.files.wordpress.com/2017/03/05onfire1_xp-master768-v2.jpg?w=300&h=142 300w', alt: '05onfire1_xp-master768-v2', width: 768, height: 364, 'data-attachment-id': 193, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/05onfire1_xp-master768-v2/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/05onfire1_xp-master768-v2.jpg?w=768&h=364', 'data-orig-size': '768,364', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': '05onfire1_xp-master768-v2', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/05onfire1_xp-master768-v2.jpg?w=768&h=364?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/05onfire1_xp-master768-v2.jpg?w=768&h=364?w=768' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { style: { textAlign: 'center' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { style: { textDecoration: 'underline' } },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'strong',
+                                null,
+                                'Building Pallet Town'
+                        )
+                )
+        ),
+        'As fun as GitHub torture and \xA0problems were, the coolest part of this project for me was seeing the Pok\xE9mon canvas/map we created interact with the logic and API to make a game. To create the canvas below, we took screenshots of different elements within a Pok\xE9mon emulator and added them to certain x,y coordinates. For the image above: the 3 buildings and the central person were placed and then using their outline, a block was placed on the canvas which prevented the user (bottom-left) from walking through the house walls with the directional buttons. At this point, our logic wasn\u2019t ready to incorporate into the canvas, so we set up a framework for triggering different functions based on the users x,y coordinates on the canvas and whether they pressed the A-button (offscreen). For instance, standing in front of the door in the top left and pressing A-button would trigger gym-one\u2019s fight scene. With this canvas/framework being far beyond what we required for completing our MVP,\xA0it was time to go back to completing the logic to assign each trigger before spending any more time on the aesthetics.',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'em',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'strong',
+                        null,
+                        'A canvas for moving the player (bottom-left) and triggering different functions based on where he is/where he is when he hits the A button'
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'alignnone size-full wp-image-213', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png?w=1198&h=962', sizes: '(max-width: 1198px) 100vw, 1198px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png 1198w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png?w=150&h=120 150w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png?w=300&h=241 300w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png?w=768&h=617 768w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png?w=1024&h=822 1024w', alt: 'Screen Shot 2017-03-05 at 19.19.17.png', width: 1198, height: 962, 'data-attachment-id': 213, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/screen-shot-2017-03-05-at-19-19-17/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png?w=1198&h=962', 'data-orig-size': '1198,962', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': 'screen-shot-2017-03-05-at-19-19-17', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png?w=1198&h=962?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-19-19-17.png?w=1198&h=962?w=1024' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { style: { textAlign: 'center' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { style: { textDecoration: 'underline' } },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'strong',
+                                null,
+                                'Pokemon Logic: Pok\xE9 Dok\xE9 Is Confused'
+                        )
+                )
+        ),
+        'The Pok\xE9mon logic that we built was simple, pressing the A-button in different places (a long IF statement) triggered different events (a function). Great. The downsides of this, as stated earlier, was that our code became incredibly long winded and we found ourselves copy-pasting certain functions with slight changes, rather than a more elegant replicable function. To speak about the overall game logic of what we would consider \u201Cbeating\u201D the game, we began by setting up our database and then populating an array of Unused Pokemon. On creation, all 151 Pok\xE9mon are \u201Cunused\u201D and from there one Pok\xE9mon is assigned as a starter. It is now up to the player to collect the next Pok\xE9mon from the grass, which will spawn a wild Pok\xE9mon to be caught from the remaining 150. By catching this Pok\xE9mon, they will be removed from the \u201Cunused\u201D Pok\xE9mon array and pushed to the Pok\xE9dex array of the player. The end screen, or the game being beaten, will only be triggered when the \u201Cunused\u201D Pok\xE9mon equals zero, as this would mean the players Pok\xE9dex equals 151. The building of each aspect of the gym, grass and home\u2019s logic can be read more thoroughly on GitHub. To explain the intricacies of a fight in the grass, the user is within the grassy area in the bottom right of the canvas and there is a 1/10 chance that a fight will be initiated. From here, an \u201Cunused\u201D Pok\xE9mon is placed against the first Pok\xE9mon in the player\u2019s hand (a chosen subset of his Pok\xE9dex). A turn based formula is utilised to determine a winner by comparing their Current Health Points, Attack and Defence. If the wild Pok\xE9mon wins, the player is forced to use his next Pok\xE9mon or return home to heal his squad. If the player wins, the wild Pok\xE9mon is then added to the Pok\xE9dex. The first challenge of this section of work was finding a way for Pok\xE9mon\u2019s current HP to persist between fights whilst remembering what the initial HP was for healing back to full health at home. To do this we assigned each Pok\xE9mon object another property\xA0called fightHP, this way we could utilise two different HP\u2019s to solve our problem as well as allow us to make a progress bar for the fight screen interface.',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'em',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'strong',
+                        null,
+                        'An electric type gym fight: the opponents first Pok\xE9mon beaten, the second nearly down.'
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'alignnone size-full wp-image-215', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png?w=2560&h=1600', sizes: '(max-width: 2560px) 100vw, 2560px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png 2560w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png?w=150&h=94 150w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png?w=300&h=188 300w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png?w=768&h=480 768w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png?w=1024&h=640 1024w', alt: 'Screen Shot 2017-03-05 at 22.58.28.png', width: 2560, height: 1600, 'data-attachment-id': 215, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/screen-shot-2017-03-05-at-22-58-28/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png?w=2560&h=1600', 'data-orig-size': '2560,1600', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': 'screen-shot-2017-03-05-at-22-58-28', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png?w=2560&h=1600?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-22-58-28.png?w=2560&h=1600?w=1024' }),
+        'The most difficult problem we encountered in the logic was finding a way to have the A-Button perform different actions depending on what screen it was on. For instance, when on the canvas, we are using the A-Button to enter houses. However, when we are in a fight screen, we are using the A-Button to move to the next turn. My favourite piece of code in the entire project was the solution to this problem: If statements based on z-Index. To this point we had been utilising the z-index and viewToggles to switch easily between which layer was being shown. An example of this would be, whilst the canvas is the main view the z-Index of the canvas is 100 and all other screens z-Index is 1, when a fight would initiate, the fight screen would change to 100 and the canvas would return its z-Index to 1. Eventually, we realised we could utilise our A-Button together with the z-Index so that the A-Button would lead to different functions depending on what screen was visible (at z-Index 100).',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { style: { textAlign: 'center' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { style: { textDecoration: 'underline' } },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'strong',
+                                null,
+                                'All Aboard The C-S.S Anne'
+                        )
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { style: { textAlign: 'left' } },
+                'The section I had been looking forward to since day 1, adding Pok\xE9mon styling to an app. Having spent quite a few hours attempting to make the CSS as impressive or pointlessly flashy\xA0as I could on a lot of the homework and lab\u2019s over the past few weeks, I was really excited to produce something with a given theme that more than 2 people might actually see and be able to give feedback on. The most important lesson I was forced to learn regarding css, was to preview and customise elements in the browser and copy the styling to the .css file. Attempting to style the end screen which (even with cheats on) took a full 2 minutes to play through to inspect made me really appreciate how useful a tool the in browser preview was.'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { style: { textAlign: 'left' } },
+                'My favourite aspect of styling was the fight screen, utilising the sizes of the front and back pictures of the Pok\xE9mon to give a slightly 3D feel to the page. I had previously struggled with figuring out the animation of elements on past homework, but fortunately managed to implement transitions in this project. Using\xA0keyframes allowed us to have the fight screen begin with each Pok\xE9mon sliding into the screen from the borders with a 0% brightness.'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { style: { textAlign: 'left' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'em',
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'strong',
+                                null,
+                                'Unexpected challenge: taking a screenshot of key frame 0%. This is mid slide in, with mid brightness.'
+                        )
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { style: { textAlign: 'left' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'alignnone size-full wp-image-216', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png?w=2560&h=1600', sizes: '(max-width: 2560px) 100vw, 2560px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png 2560w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png?w=150&h=94 150w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png?w=300&h=188 300w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png?w=768&h=480 768w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png?w=1024&h=640 1024w', alt: 'Screen Shot 2017-03-05 at 23.48.28.png', width: 2560, height: 1600, 'data-attachment-id': 216, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/screen-shot-2017-03-05-at-23-48-28/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png?w=2560&h=1600', 'data-orig-size': '2560,1600', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': 'screen-shot-2017-03-05-at-23-48-28', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png?w=2560&h=1600?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-03-05-at-23-48-28.png?w=2560&h=1600?w=1024' })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { style: { textAlign: 'left' } },
+                'Transitions aside, I didn\u2019t necessarily learn a great deal of new CSS tools during this project. However, I did spend a good deal of time working with the styling and produced something I was proud of and thought looked as close to the original Pok\xE9mon as I was capable.'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { style: { textAlign: 'left' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'em',
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'strong',
+                                null,
+                                'Go Home Blastoise, You\u2019re Drunk. An early edition of our fight screen pre-styling.'
+                        )
+                )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { style: { textAlign: 'left' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'alignnone size-full wp-image-218', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png?w=1892&h=1224', sizes: '(max-width: 1892px) 100vw, 1892px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png 1892w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png?w=150&h=97 150w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png?w=300&h=194 300w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png?w=768&h=497 768w, https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png?w=1024&h=662 1024w', alt: 'Screen Shot 2017-02-27 at 13.00.14.png', width: 1892, height: 1224, 'data-attachment-id': 218, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/screen-shot-2017-02-27-at-13-00-14/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png?w=1892&h=1224', 'data-orig-size': '1892,1224', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': 'screen-shot-2017-02-27-at-13-00-14', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png?w=1892&h=1224?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/screen-shot-2017-02-27-at-13-00-14.png?w=1892&h=1224?w=1024' })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('h3', { style: { textAlign: 'center' } }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h3',
+                { style: { textAlign: 'center' } },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { style: { textDecoration: 'underline' } },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'strong',
+                                null,
+                                'Caught Them All'
+                        )
+                )
+        ),
+        'Overall, I think our presentation of the project went as well as we could have hoped. We went in with a loose structure of the topics we wanted to cover and it eventually turned into a discussion between our group about the certain aspects we found difficult and how we overcame them. That was the end of an exhausting week and had the group not been so committed and worked from 9am (or 10\u2026ish) till 8pm in CodeClan all 7 days I doubt we would have been able to complete as much as we did. \xA0Of our initial plan, I believe we easily met our MVP and accomplished 95% of our bonus functionality in our \u201Cwould add if we had time\u201D section. \xA0From a personal point of view, I had the 7 most enjoyable days of CodeClan so far working on this project and it resulted in an app I was incredibly proud of. I realise not every project I work on may make me as enthusiastic as Pok\xE9mon did, but the feeling of creating an app to a level I was happy to present\xA0really motivated me to want to be in CodeClan working till closing time every day. Final thoughts on the project, I\u2019d really like to host the project online somewhere for showing to both employers and friends outside of coding. As of yet, I haven\u2019t found a place to host the mongo database for free but hopefully I will be able to find a work around for Heroku or a separate site altogether. As Blastoise would say, Pok\xE9 Dok\xE9 was ',
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                null,
+                'just\xA0right.'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: ' size-full wp-image-220 aligncenter', title: true, src: 'https://pokeedokee.files.wordpress.com/2017/03/cin3sqhw0aih8rz1.png?w=557&h=496', sizes: '(max-width: 557px) 100vw, 557px', srcSet: 'https://pokeedokee.files.wordpress.com/2017/03/cin3sqhw0aih8rz1.png 557w, https://pokeedokee.files.wordpress.com/2017/03/cin3sqhw0aih8rz1.png?w=150&h=134 150w, https://pokeedokee.files.wordpress.com/2017/03/cin3sqhw0aih8rz1.png?w=300&h=267 300w', alt: 'CiN3SQhW0AIh8RZ.png', width: 557, height: 496, 'data-attachment-id': 220, 'data-permalink': 'https://pokeedokee.wordpress.com/2017/03/05/poke-project-time/cin3sqhw0aih8rz-2/', 'data-orig-file': 'https://pokeedokee.files.wordpress.com/2017/03/cin3sqhw0aih8rz1.png?w=557&h=496', 'data-orig-size': '557,496', 'data-comments-opened': 1, 'data-image-meta': '{', 'data-image-title': 'cin3sqhw0aih8rz', 'data-image-description': true, 'data-medium-file': 'https://pokeedokee.files.wordpress.com/2017/03/cin3sqhw0aih8rz1.png?w=557&h=496?w=300', 'data-large-file': 'https://pokeedokee.files.wordpress.com/2017/03/cin3sqhw0aih8rz1.png?w=557&h=496?w=557' })
+);
+
+/* harmony default export */ __webpack_exports__["a"] = Pokemon;
+
+/***/ }),
+/* 236 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+const League = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   'div',
   null,
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'h3',
     null,
-    'Pokemon Page'
+    'League Stuff'
   )
 );
 
-/* unused harmony default export */ var _unused_webpack_default_export = Pokemon;
+/* harmony default export */ __webpack_exports__["a"] = League;
+
+/***/ }),
+/* 237 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+const Code = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+  'div',
+  null,
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h3',
+    null,
+    ' CodeClan (September 2016-Present)'
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    'A 16 week full-time, project-based software development course which prepared me for a new career in a fast-paced and demanding tech industry. Training/Skills Orientated Programming, Test Driven Development, Android App Development, HTTP and Web Application Development, Front End Development, Back End Development, Databases. Ruby, Ruby on Rails, Java, Android, HTML, CSS, Sinatra, JavaScript, React.JS, UNIX and Git proficiency. Project 3 - JavaScript -  https://github.com/daveJS133/Poke-Doke A group project rebuilding Pokemon:Blue focusing on CSS, API\u2019s and Databases. Project 2 - Android App - https://github.com/rorrrr/BlackJack-Android A solo project creating a Blackjack app in Android Studio. Project 1 - Ruby - https://github.com/rorrrr/Doggo-Shelter A solo project creating a website to monitor an animal shelter.'
+  )
+);
+
+/* harmony default export */ __webpack_exports__["a"] = Code;
+
+/***/ }),
+/* 238 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+const Poker = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+  'div',
+  null,
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h3',
+    null,
+    ' Self Employed Professional Online Poker Player/Coach (2010-2015)'
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    'I achieved a steady income and many accolades during this time, most notably, consistent finishes in the top #20 for yearly profit in the world for the particular game type in which I specialised. Demonstrating discipline, a strong work ethic and ambition to improve to be amongst the world\u2019s best. Coached 4 players of varying ability to improve their poker skill, both technically and mentally. Learned what it takes to be a leader and teacher and how to pass on knowledge and skills effectively and constructively. Creating instructional videos as well as one to one coaching. All 4 went on to show improved profits. During this time, I amassed a database of over 2 million hands. Trend and data analysis was performed using an SQL based poker analytics software called Hold\u2019em Manager. This software allowed me to become proficient with SQL and constantly strive to improve via this tool to maximise earnings.'
+  )
+);
+
+/* harmony default export */ __webpack_exports__["a"] = Poker;
+
+/***/ }),
+/* 239 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+const Blurb = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+  "div",
+  { id: "mainBlurb" },
+  "Psychology graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.",
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+  "Scroll Left for Projects ... Right for Experience",
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+  "Click on a Portal for more Info"
+);
+
+/* harmony default export */ __webpack_exports__["a"] = Blurb;
+
+/***/ }),
+/* 240 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_League__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Pokemon__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Poker__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Code__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Blurb__ = __webpack_require__(239);
+
+
+
+
+
+
+
+const Modals = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+  'div',
+  { id: 'modals' },
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'modalLeague' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { id: 'leagueModal', className: 'modal' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'modal-content' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'span1',
+          { className: 'close' },
+          '\xD7'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_League__["a" /* default */], null)
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'modalPoke' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { id: 'pokeModal', className: 'modal' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'modal-content' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'span2',
+          { className: 'close' },
+          '\xD7'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Pokemon__["a" /* default */], null)
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'modalCode' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { id: 'codeModal', className: 'modal' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'modal-content' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'span3',
+          { className: 'close' },
+          '\xD7'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Code__["a" /* default */], null)
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'modalPoker' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { id: 'pokerModal', className: 'modal' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'modal-content' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'span4',
+          { className: 'close' },
+          '\xD7'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Poker__["a" /* default */], null)
+      )
+    )
+  )
+);
+
+/* harmony default export */ __webpack_exports__["a"] = Modals;
 
 /***/ })
 /******/ ]);
