@@ -27032,14 +27032,202 @@ const Code = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   'div',
   null,
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'h3',
-    null,
-    ' CodeClan (September 2016-Present)'
+    'p',
+    { style: { textAlign: 'center' } },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'strong',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'em',
+        null,
+        'CodeClan (September 2016-Present)'
+      )
+    )
   ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'p',
     null,
-    'A 16 week full-time, project-based software development course which prepared me for a new career in a fast-paced and demanding tech industry. Training/Skills Orientated Programming, Test Driven Development, Android App Development, HTTP and Web Application Development, Front End Development, Back End Development, Databases. Ruby, Ruby on Rails, Java, Android, HTML, CSS, Sinatra, JavaScript, React.JS, UNIX and Git proficiency. Project 3 - JavaScript -  https://github.com/daveJS133/Poke-Doke A group project rebuilding Pokemon:Blue focusing on CSS, API\u2019s and Databases. Project 2 - Android App - https://github.com/rorrrr/BlackJack-Android A solo project creating a Blackjack app in Android Studio. Project 1 - Ruby - https://github.com/rorrrr/Doggo-Shelter A solo project creating a website to monitor an animal shelter.'
+    '\xA0'
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'span',
+      { style: { fontWeight: 400 } },
+      'A 16 week full-time, project-based software development course which prepared me for a new career in a fast-paced and demanding tech industry.'
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'em',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        { style: { fontWeight: 400 } },
+        'Training/Skills'
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'ul',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'li',
+      { style: { fontWeight: 400 } },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        { style: { fontWeight: 400 } },
+        'Orientated Programming, Test Driven Development, Android App Development, HTTP and Web Application Development, Front End Development, Back End Development, Databases.'
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'li',
+      { style: { fontWeight: 400 } },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        { style: { fontWeight: 400 } },
+        'Ruby, Ruby on Rails, Java, Android, HTML, CSS, Sinatra, JavaScript, React.JS, UNIX and Git proficiency.'
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'strong',
+      null,
+      'Project 3'
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'strong',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'em',
+        null,
+        ' - JavaScript - \xA0'
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'a',
+      { href: 'https://github.com/daveJS133/Poke-Doke' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'em',
+          null,
+          'https://github.com/daveJS133/Poke-Doke'
+        )
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'em',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        { style: { fontWeight: 400 } },
+        'A group project rebuilding Pokemon:Blue focusing on CSS, API\u2019s and Databases.'
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'strong',
+      null,
+      'Project 2'
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'strong',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'em',
+        null,
+        ' - Android App - '
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'a',
+      { href: 'https://github.com/rorrrr/BlackJack-Android' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'em',
+          null,
+          'https://github.com/rorrrr/BlackJack-Android'
+        )
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'em',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        { style: { fontWeight: 400 } },
+        'A solo project creating a Blackjack app in Android Studio.'
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'strong',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'em',
+        null,
+        'Project 1'
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'strong',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'em',
+        null,
+        ' - Ruby - '
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'a',
+      { href: 'https://github.com/rorrrr/Doggo-Shelter' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'em',
+          null,
+          'https://github.com/rorrrr/Doggo-Shelter'
+        )
+      )
+    )
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'em',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        { style: { fontWeight: 400 } },
+        'A solo project creating a website to monitor an animal shelter.'
+      )
+    )
   )
 );
 
