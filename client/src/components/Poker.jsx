@@ -2,6 +2,7 @@ import React from 'react'
 
 const Poker = () => (
   <div>
+  <h2> Poker </h2>
   <h3> Self Employed Professional Online Poker Player/Coach (2010-2015)</h3>
   <p>
   I achieved a steady income and many accolades during this time, most notably, consistent finishes in the top #20 for yearly profit in the world for the particular game type in which I specialised. Demonstrating discipline, a strong work ethic and ambition to improve to be amongst the world’s best.

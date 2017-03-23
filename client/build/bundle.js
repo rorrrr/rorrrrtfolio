@@ -5418,6 +5418,11 @@ const Code = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   'div',
   null,
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h2',
+    null,
+    'CODECLAN :( WEEK 16 - CRYING EMOJI gfy '
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'p',
     { style: { textAlign: 'center' } },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -5632,9 +5637,9 @@ const League = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement
   'div',
   null,
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'h3',
+    'h2',
     null,
-    'League Stuff'
+    ' League of Legends API '
   ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
@@ -5657,6 +5662,11 @@ const League = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement
 const Pokemon = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
         { id: 'pokemonBlog' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h2',
+                null,
+                ' Pokemon '
+        ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 { style: { position: 'relative', height: 0, paddingBottom: '56.25%' } },
@@ -5917,6 +5927,11 @@ const Pokemon = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElemen
 const Poker = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   'div',
   null,
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'h2',
+    null,
+    ' Poker '
+  ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'h3',
     null,
