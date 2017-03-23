@@ -8990,16 +8990,22 @@ const Modals = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement
 const Blurb = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   'div',
   { id: 'mainBlurb' },
-  'PsychOlogy graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.',
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-  'Scroll Left for Projects or Right for Experience',
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-  'Then click a portal to see more',
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+  ' ',
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    'PsychOlogy graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.'
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    'Scroll Left for Projects or Right for Experience '
+  ),
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'p',
+    null,
+    'Then click a portal to see more'
+  ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',

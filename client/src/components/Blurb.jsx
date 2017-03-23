@@ -1,15 +1,9 @@
 import React from 'react'
 
 const Blurb = () => (
-  <div id="mainBlurb">PsychOlogy graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.
-  <br></br>
-  <br></br>
-  <br></br>
-  Scroll Left for Projects or Right for Experience 
-  <br></br>
-  Then click a portal to see more
-  <br></br>
-  <br></br><br></br>
+  <div id="mainBlurb"> <p>PsychOlogy graduate keen to transition the analytical skills acquired as a professional poker player to a career in software development.</p>
+  <p>Scroll Left for Projects or Right for Experience </p>
+  <p>Then click a portal to see more</p>
   <br></br>
   <div id='hoverables'>
 

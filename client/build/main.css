@@ -49,7 +49,6 @@ h2 {
   z-index: 999999;
   opacity: 0;
   visibility: hidden;
-  background-color:black;
 }
 
 #hoverables{
@@ -144,7 +143,6 @@ h2 {
 }
 
 .modal {
-  align-items: center;
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1200; /* Sit on top */
@@ -159,11 +157,13 @@ h2 {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  font-size-adjust: 2em;
-  margin: 15% auto; /* 15% from the top and centered */
+  color:white;
+  background-color: black;
+  font-size-adjust: 3em;
+  margin: 10% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
+  border: 3px solid orange;
+  background: url(https://archive-media.nyafuu.org/wg/image/1370/87/1370877516377.jpg);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
@@ -188,6 +188,10 @@ h2 {
 
 #inner {
   overflow: auto;
+}
+
+#mainBlurb {
+  background-color: rgba(0, 0, 0, 0.2)
 }
 
 #mainBlurb {
