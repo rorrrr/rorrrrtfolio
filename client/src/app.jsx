@@ -19,6 +19,8 @@ window.onload = () => {
 
   )
 
+  document.body.scrollLeft = 1284;
+
   /////////////// PORTAL 1 //////////////////////
 
   var modal1 = document.getElementById('leagueModal');
@@ -132,6 +134,30 @@ window.onload = () => {
 
   /////////////////////////////////////////////
 
+  var blastoise = document.getElementById('blastoise');
+  var ahhtoise = document.getElementById('ahhtoise');
 
+  blastoise.onclick = function(event) {
+    ahhtoise.style.opacity = 1;
+    ahhtoise.style.visibility = 'visible';
+  }
+
+  ahhtoise.onclick =function(event) {
+    ahhtoise.style.opacity = 0;
+    ahhtoise.style.visibility = 'hidden';
+  }
+
+  var pony = document.getElementById('pony');
+  var portalPony = document.getElementById('portalPony');
+
+  pony.onclick = function(event) {
+    portalPony.style.opacity = 1;
+    portalPony.style.visibility = 'visible';
+  }
+
+  portalPony.onclick =function(event) {
+    portalPony.style.opacity = 0;
+    portalPony.style.visibility = 'hidden';
+  }
 
 }
