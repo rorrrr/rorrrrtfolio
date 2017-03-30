@@ -8,12 +8,10 @@ app.get('/', function (req, res) {
 
 app.use(express.static('client/build'));
 
-
-var server = app.listen(5000, function () {
-  var host = process.env.HOST || '0.0.0.0';
-  var port = process.env.PORT || 5000;
-
-  console.log('Example app listening at http://%s:%s', host, port);
+var port = process.env.PORT || 5000;
+var server = app.listen(port, function () {
+  
+  console.log('Example app listening on %s', port);
 });
 
 
