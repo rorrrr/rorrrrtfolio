@@ -154,7 +154,24 @@ h2 {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+/*
+#cake {
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 220px;
+  width: 840px;
+  height: 840px;
+  opacity: 1;
+  transition: opacity 1s;
+  animation: flashout;
+  animation-duration: 1s;
+}
 
+@keyframes flashout {
+  0% {transform: none}
+  99% {opacity: 0;}
+  100% {visibility: hidden};
+}*/
 /* Modal Content/Box */
 .modal-content {
   color:white;

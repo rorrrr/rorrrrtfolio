@@ -10,10 +10,7 @@ import Modals from  '../containers/Modals'
 
 const Main = () => (
 
-
-
   <div id="mainDiv">
-
   <img id='ahhtoise' src='https://pbs.twimg.com/profile_images/840663605871808513/MFCuSzKj.jpg'></img>
   <img id='portalPony' src='http://orig03.deviantart.net/0c8c/f/2014/146/7/a/pinkie_playing_portal_by_batmanbrony-d7ju06s.gif'></img>
   <img id='glaDOS' src="https://media.giphy.com/media/l0Iy8mJZgWidVmu3e/giphy.gif"></img>
