@@ -10,8 +10,8 @@ app.use(express.static('client/build'));
 
 
 var server = app.listen(5000, function () {
-  var host = process.env.YOUR_HOST || '0.0.0.0';
-  var port = process.env.YOUR_PORT || process.env.PORT || 5000;
+  var host = process.env.HOST || '0.0.0.0';
+  var port = process.env.PORT || 5000;
 
   console.log('Example app listening at http://%s:%s', host, port);
 });

@@ -5420,7 +5420,7 @@ const Code = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'h2',
     null,
-    'CODECLAN :( WEEK 16 - CRYING EMOJI gfy '
+    'CODECLAN'
   ),
   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'p',
@@ -12789,7 +12789,7 @@ const Main = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
     { id: 'portalPics' },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'pikachu', src: 'http://24.media.tumblr.com/tumblr_mcm1ec68fN1qfqgb9o1_1280.gif' }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'jinx', src: 'http://media.lolusercontent.com/api/embedly/1/image/resize?url=http%3A%2F%2Forig08.deviantart.net%2F097e%2Ff%2F2015%2F116%2F9%2Fe%2Fget_jinxed_lol_pixel_by_kajinman-d74jgbv.gif&key=a45e967db0914c7fb472fd4381e6c85b&width=425' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'jinx', src: 'https://media.giphy.com/media/3bC2xtyZejikU/giphy.gif' }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'codeclan', src: 'http://codeclan.com/wp-content/uploads/2016/03/favicon.png' }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { id: 'poker', src: 'http://www.picgifs.com/sport-graphics/sport-graphics/playing-cards/sport-graphics-playing-cards-590406.gif' })
   ),

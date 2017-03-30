@@ -4,7 +4,7 @@ const Code = () => (
 
 
   <div>
-  <h2>CODECLAN :( WEEK 16 - CRYING EMOJI gfy </h2>
+  <h2>CODECLAN</h2>
   <p style={{textAlign: 'center'}}><strong><em>CodeClan (September 2016-Present)</em></strong></p>
   <p>&nbsp;</p>
   <p><span style={{fontWeight: 400}}>A 16 week full-time, project-based software development course which prepared me for a new career in a fast-paced and demanding tech industry.</span></p>

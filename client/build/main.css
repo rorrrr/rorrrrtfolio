@@ -176,11 +176,12 @@ h2 {
 .modal-content {
   color:white;
   background-color: black;
+  text-shadow: 1px 1px solid black;
   font-size-adjust: 3em;
   margin: 10% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 3px solid orange;
-  background: url(https://archive-media.nyafuu.org/wg/image/1370/87/1370877516377.jpg);
+  background: url(https://i.ytimg.com/vi/g64-QChgebo/maxresdefault.jpg);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
